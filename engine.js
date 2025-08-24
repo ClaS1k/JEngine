@@ -117,7 +117,7 @@ class Renderer {
           //создаём массив объектов с включенной коллизией
           for (let i = 0; i < countbleObjects.length; i++) {
             //проходимся по всем объектам в поле зрения
-            if (renderer.objects[countbleObjects[i]].collision) { 
+            if (renderer.objects[countbleObjects[i]].collision) {
               //и ищем те, у которых включена коллизия
               objectsWithCollision.push(countbleObjects[i]);
             }
